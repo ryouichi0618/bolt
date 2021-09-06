@@ -196,6 +196,7 @@
 
 .share-btn {
   display: inline-block;
+  transition: 0.3s;
 }
 
 .share-btn:hover {
@@ -350,7 +351,6 @@
     font-size: 30px;
   }
 
-
   .share {
     padding: 50px 0;
   }
@@ -359,7 +359,8 @@
     display: block;
   }
 
-  .fab {
+  .share-icon {
     width: 100%;
   }
+
 }
