@@ -124,13 +124,13 @@
 
 .work__heading {
   color: #333;
-  margin-bottom: 40px;
 }
 
 .work__imgs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .work__imgs__img {
@@ -160,6 +160,7 @@
 .work__text {
   color: #333;
   display: inline-block;
+  width: 580px;
 }
 
 .work__email {
@@ -195,6 +196,7 @@
 .share {
   background-color: #f2f2f2;
   padding: 200px 0;
+  font-size: 0;
 }
 
 .share-btn {
@@ -286,6 +288,7 @@
   .work__text {
     color: #333;
     display: block;
+    width: 100%;
   }
 
   .work__email {
