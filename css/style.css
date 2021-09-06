@@ -7,7 +7,7 @@
   color: #fff;
 }
 
-.theme__heading, .can__content__heading, .work__heading {
+.heading {
   font-family: Raleway;
 }
 
@@ -102,9 +102,7 @@
   width: 60%;
 }
 
-.can__content__heading,
-.work__heading,
-.skills__heading {
+.heading-size {
   font-size: 24px;
 }
 
@@ -232,7 +230,7 @@
   color: #fff;
 }
 
-@media (max-width: 1199px) {
+@media screen and(max-width: 1199px) {
   .inner {
     width: 97%;
   }
@@ -304,7 +302,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
   .header__contact__btn {
     display: none;
