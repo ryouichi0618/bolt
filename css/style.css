@@ -136,7 +136,7 @@
 .work__imgs__img {
   margin-left: 100px;
   opacity: 0.7;
-  transform: 0.3s;
+  transition: 0.3s;
 }
 
 .work__imgs__img:hover {
@@ -290,6 +290,10 @@
 
   .work__email {
     margin: 40px auto 0;
+  }
+
+  .skills__content__levels {
+    margin-top: 50px;
   }
 
   .skills__content__level {
